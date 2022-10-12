@@ -8,7 +8,6 @@ for(let i = 0; i < data.events.length; i++){
     if(data.events[i].date > data.currentDate){
 
 let div= document.createElement("div")
-div.className = "card"
 div.innerHTML += `
 
    <div class="col-md-1  pb-5  container-fluid "  style="width: 20rem; background-color: #ffccfe; "  >
